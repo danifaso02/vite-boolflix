@@ -19,3 +19,9 @@ export default {
 <!-- STYLE -->
 <style scoped>
 </style>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
