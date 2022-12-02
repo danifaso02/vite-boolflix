@@ -14,7 +14,7 @@ export default {
 <template>
   <div>
     <input type="text" v-model="store.textToSearch" placeholder="Cerca pure">
-    <button @click="$emit('performSearch')">Invio</button>
+    <button type="submit" @click="$emit('performSearch')">Invio</button>
   </div>
 </template>
 
