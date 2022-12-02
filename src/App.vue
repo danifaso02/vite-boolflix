@@ -4,6 +4,7 @@ import AppHeader from './components/AppHeader.vue';
 
 export default {
   components: {
+    name: "App",
     AppHeader,
   }
 };
@@ -12,7 +13,7 @@ export default {
 <!-- TEMPLATE -->
 <template>
   <div>
-    <AppHeader />
+    <AppHeader @performSearch="getResults" />
   </div>
 </template>
 
